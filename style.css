@@ -17,7 +17,31 @@ h1{
 }
 
 #regis{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#regis label{
     display: block;
-    border: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#regis input,#regis select {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#regis button{
+    color: white;
+    background-color:rgb(25, 84, 3);
+    border-radius: 12px;
+    padding: 10px 15px;
+    cursor:pointer
 }

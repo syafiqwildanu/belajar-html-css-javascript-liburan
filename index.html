@@ -31,16 +31,22 @@
         <section id="regis">
             <form action="/register">
                 <label for="nama">Nama:</label>
+                <input type="text" id="nama" placeholder="masukkan nama kamu"> 
+
                 <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="masukkan email kamu">
+
                 <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="buat password">
+
                 <label for="GU">Game Utama:
                     <select name="jk" id="GU">
                         <option value="">pilih ...</option>
-                        <option value="pria">Resident Evil</option>
-                        <option value="wanita">EA FC 2026</option>
+                        <option value="resident_evil">Resident Evil</option>
+                        <option value="ea_fc">EA FC 2026</option>
                     </select>
                 </label>
-                <button>Daftar Sekarang</button>
+                <button type="submit">Daftar Sekarang</button>
             </form>
         </section>
     </main>
