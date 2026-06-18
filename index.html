@@ -7,18 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <h2>ice'light Gaming</h2>
+        <a href="#">Home</a>
+        <a href="#">Fasilitas</a>
+        <a href="#">Daftar Member</a>
+    </nav>
     <header>
         <h1>Profil Saya</h1>
     </header>
     
     <main>
-        <section>
+        <section id="biodata">
             <p>
                 Nama: Syafiq Jiyadi Wildanu<br>
                 Peran: Fullstack Engineer<br>
                 Pendidikan: Mahasiswa<br>
                 Deskripsi Singkat: Saya adalah orang yang suka bermain game. Dari game yang telah saya mainkan, saya paling menyukai game Resident Evil.
             </p>
+        </section>
+
+        <!-- form Pendaftaran -->
+        <section id="regis">
+            <form action="/register">
+                <label for="nama">Nama:</label>
+                <label for="email">Email:</label>
+                <label for="password">Password:</label>
+                <label for="GU">Game Utama:
+                    <select name="jk" id="GU">
+                        <option value="">pilih ...</option>
+                        <option value="pria">Resident Evil</option>
+                        <option value="wanita">EA FC 2026</option>
+                    </select>
+                </label>
+                <button>Daftar Sekarang</button>
+            </form>
         </section>
     </main>
 

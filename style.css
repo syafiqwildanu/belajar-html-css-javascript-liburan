@@ -8,10 +8,16 @@ h1{
     margin: 15px;
 }
 
-section{
+#biodata{
     background-color: rgb(200, 191, 191);
     border: 1px solid black;
     padding: 5px;
     margin: 15px;
     width: 50%;
+}
+
+#regis{
+    display: block;
+    border: 10px;
+    margin-bottom: 10px;
 }
