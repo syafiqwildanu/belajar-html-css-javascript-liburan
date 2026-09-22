@@ -1,4 +1,4 @@
-// 4.splice
+    // 4.splice
 // splice(indexAwal,mauDihapusBerapa,elemenBaru1,elemenBaru2,...)
 
 // var arr = ['syafiq','alep perompak','dika',];
@@ -21,8 +21,8 @@
 // function(element, index, array) {}
 // var angka = [1,2,3,4,5,6,7,8];
 // var nama = ['syafiq','farel','zaki'];
-// for (var 1 = 0 ; i < angka.length; i++) {
-// conssole.log(angka[i]);
+// for (var i = 0 ; i < angka.length; i++) {
+// console.log(angka[i]);
 // }
 
 // angka.forEach(function(e) {
@@ -51,7 +51,28 @@
 // console.log(angka.join(' - '))
 
 //contoh 2 (yang contoh ini dikasih 10 sama 20 namun tidak bisa terurut jika hanya dikasih methode angka.sort seperti ini saja.perlu dikasih parameter)
-var angka = [1,10,2,20,3,5,6,9,8];
-angka.sort(function(a,b){
-    return a-b
-})
+// var angka = [1,10,2,20,3,5,6,9,8];
+// angka.sort(function(a,b){
+//     return a-b
+// })
+
+//selanjutnya ada methode filter & find gunanya untuk mencari elemen pada array , klo find mengembalikan SATU NILAI ,sedangkan filter mengembalikan BANYAK NILAI 
+
+// kalo di filter itu bisa menampilkan array/lebih dari satu nilai, sedangkan kalo di find dia hanya bisa kembalikan satu nilai karena cuman bisa hasilin satu nilai dia gabisa pakai join karena join cuman bisa dipakai oleh array 
+
+//9.filter 
+// var angka = [1,2,10,5,20,3,6,8,4];
+// var angka2 = angka.filter(function (x) {
+//     return x > 5 ;
+// }
+// )
+// console.log (angka2.join(' - '));
+
+//10. find
+
+// var angka = [1,2,10,5,20,3,6,8,4];
+// var angka2 = angka.find(function (x) {
+//     return x > 5 ;
+// }
+// )
+// console.log (angka2);

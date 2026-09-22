@@ -1,3 +1,5 @@
+//program ini bertujuan
+
 var noAngkot = 1;
 var jmlAngkot = 10;
 var angkotBeroperasi = 6;
